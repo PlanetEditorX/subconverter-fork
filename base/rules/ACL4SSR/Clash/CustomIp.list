@@ -4,13 +4,27 @@
 #####################################
 # 牛逼
 # 香港
-IP-CIDR,185.241.40.230/24,no-resolve
-IP-CIDR,85.208.72.85/24,no-resolve
-IP-CIDR,85.208.72.70/24,no-resolve
 IP-CIDR,85.208.72.20/24,no-resolve
+IP-CIDR,85.208.72.45/24,no-resolve
+IP-CIDR,85.208.72.47/24,no-resolve
+IP-CIDR,85.208.72.70/24,no-resolve
+IP-CIDR,85.208.72.81/24,no-resolve
+IP-CIDR,85.208.72.85/24,no-resolve
+IP-CIDR,185.241.40.230/24,no-resolve
 IP-CIDR,142.91.98.22/24,no-resolve
 
 # 台湾
 IP-CIDR,1.162.167.199/24,no-resolve
+
+# 新加坡
+IP-CIDR,194.87.10.103/24,no-resolve
+IP-CIDR,192.124.176.28/24,no-resolve
+
+# 日本
+IP-CIDR,5.183.176.163/24,no-resolve
+IP-CIDR,151.248.68.232/24,no-resolve
+
+# 韩国
+IP-CIDR,114.205.92.196/24,no-resolve
 
 #####################################
