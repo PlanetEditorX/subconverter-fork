@@ -30,7 +30,11 @@ IP-CIDR,114.205.92.196/24,no-resolve
 
 # 美国
 IP-CIDR,45.61.186.228/24,no-resolve
+IP-CIDR,79.20.223.68/24,no-resolve
 IP-CIDR,212.18.104.172/24,no-resolve
 
+# 英国
+IP-CIDR,185.161.251.40/24,no-resolve
+IP-CIDR,185.125.190.57/24,no-resolve
 
 #####################################
