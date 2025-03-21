@@ -1,0 +1,18 @@
+# 内容：自定义禁止解析域名和IP
+
+# 域名匹配
+DOMAIN,dc.services.visualstudio.com
+
+# 域名后缀匹配
+DOMAIN-SUFFIX,api.simpleallowcopy.com
+DOMAIN-SUFFIX,lzzncm.com
+
+# 屏蔽Microsoft Edge启动页广告
+DOMAIN-SUFFIX,c.msn.com
+DOMAIN-SUFFIX,ntp.msn.com
+DOMAIN-SUFFIX,ntp.msn.cn
+DOMAIN-SUFFIX,assets.msn.cn
+DOMAIN-SUFFIX,api.msn.com
+DOMAIN-SUFFIX,browser.events.data.msn.com
+#DOMAIN-SUFFIX,edge.activity.windows.com
+DOMAIN-SUFFIX,img-s-msn-com.akamaized.net
