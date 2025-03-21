@@ -1,0 +1,92 @@
+# 内容：自定义不走代理IP
+
+# IP-CIDR,IP/24,no-resolve
+######################################
+# 牛逼✈️
+# 香港
+IP-CIDR,85.208.72.20/24,no-resolve
+IP-CIDR,85.208.72.45/24,no-resolve
+IP-CIDR,85.208.72.47/24,no-resolve
+IP-CIDR,85.208.72.70/24,no-resolve
+IP-CIDR,85.208.72.81/24,no-resolve
+IP-CIDR,85.208.72.85/24,no-resolve
+IP-CIDR,183.236.52.44/24,no-resolve
+IP-CIDR,183.236.117.174/24,no-resolve
+IP-CIDR,120.236.196.136/24,no-resolve
+IP-CIDR,120.237.60.57/24,no-resolve
+IP-CIDR,142.91.98.22/24,no-resolve
+IP-CIDR,185.241.40.230/24,no-resolve
+
+# 新加坡
+IP-CIDR,194.87.10.103/24,no-resolve
+IP-CIDR,192.124.176.28/24,no-resolve
+
+# 台湾
+IP-CIDR,1.162.134.183/24,no-resolve
+IP-CIDR,1.162.167.199/24,no-resolve
+
+# 日本
+IP-CIDR,5.183.176.163/24,no-resolve
+IP-CIDR,151.248.68.232/24,no-resolve
+
+# 美国
+IP-CIDR,45.61.186.228/24,no-resolve
+IP-CIDR,65.8.129.150/24,no-resolve
+IP-CIDR,69.16.230.165/24,no-resolve
+IP-CIDR,79.20.223.68/24,no-resolve
+IP-CIDR,99.86.137.132/24,no-resolve
+IP-CIDR,104.16.61.114/24,no-resolve
+IP-CIDR,104.17.237.190/24,no-resolve
+IP-CIDR,172.67.195.92/24,no-resolve
+IP-CIDR,172.67.197.154/24,no-resolve
+IP-CIDR,205.185.118.99/24,no-resolve
+IP-CIDR,212.18.104.172/24,no-resolve
+
+# 英国
+IP-CIDR,185.125.190.57/24,no-resolve
+
+# 韩国
+IP-CIDR,114.205.92.196/24,no-resolve
+
+# 德国
+IP-CIDR,85.208.72.85/24,no-resolve
+IP-CIDR,185.161.251.40/24,no-resolve
+
+# 俄罗斯
+IP-CIDR,91.211.57.140/24,no-resolve
+IP-CIDR,95.24.167.9/24,no-resolve
+IP-CIDR,95.27.21.194/24,no-resolve
+
+######################################
+
+######################################
+# 霉霉✈️
+# 新加坡
+IP-CIDR,165.22.99.66/24,no-resolve
+IP-CIDR,194.233.88.56/24,no-resolve
+IP-CIDR,174.138.28.227/24,no-resolve
+IP-CIDR,128.199.187.29/24,no-resolve
+
+# 香港
+IP-CIDR,85.208.72.92/24,no-resolve
+IP-CIDR,156.224.79.249/24,no-resolve
+
+# 其它
+IP-CIDR,183.94.31.99/24,no-resolve
+IP-CIDR,183.94.31.99/24,no-resolve
+IP-CIDR,223.111.96.230/24,no-resolve
+IP-CIDR,183.94.31.91/24,no-resolve
+IP-CIDR,120.233.87.182/24,no-resolve
+IP-CIDR,116.148.226.147/24,no-resolve
+IP-CIDR,111.4.108.42/24,no-resolve
+IP-CIDR,36.150.215.204/24,no-resolve
+IP-CIDR,185.150.18.173/24,no-resolve
+
+
+
+
+######################################
+
+
+
+
