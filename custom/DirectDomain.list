@@ -1,6 +1,8 @@
 # 自定义直连域名
-# 域名匹配
-DOMAIN,gongkaowo.com
+# 完全域名匹配
+# DOMAIN,gongkaowo.com
+# 匹配所有子域名
+DOMAIN-SUFFIX,gongkaowo.com
 
 # 域名后缀匹配
 # DOMAIN-SUFFIX,api.simpleallowcopy.com
