@@ -3,6 +3,7 @@
 # DOMAIN,gongkaowo.com
 # 匹配所有子域名
 DOMAIN-SUFFIX,gongkaowo.com
+DOMAIN-SUFFIX,bdstatic.com
 
 # 域名后缀匹配
 # DOMAIN-SUFFIX,api.simpleallowcopy.com
