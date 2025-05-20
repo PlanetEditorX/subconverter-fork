@@ -4,6 +4,7 @@
 # 匹配所有子域名
 DOMAIN-SUFFIX,gongkaowo.com
 DOMAIN-SUFFIX,bdstatic.com
+DOMAIN-SUFFIX,chat.baidu.com
 
 # 域名后缀匹配
 # DOMAIN-SUFFIX,api.simpleallowcopy.com
