@@ -5,3 +5,4 @@ IP-CIDR,192.168.1.175/32,no-resolve
 IP-CIDR,192.168.1.199/32,no-resolve
 IP-CIDR,192.168.1.212/32,no-resolve
 IP-CIDR,192.168.1.241/32,no-resolve
+IP-CIDR,192.168.1.23/32,no-resolve
