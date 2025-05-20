@@ -1,0 +1,7 @@
+# 局域网直连IP
+IP-CIDR,192.168.1.31/32,no-resolve
+IP-CIDR,192.168.1.32/32,no-resolve
+IP-CIDR,192.168.1.175/32,no-resolve
+IP-CIDR,192.168.1.199/32,no-resolve
+IP-CIDR,192.168.1.212/32,no-resolve
+IP-CIDR,192.168.1.241/32,no-resolve
