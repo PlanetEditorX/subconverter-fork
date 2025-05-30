@@ -8,7 +8,8 @@
 # 增强中国IP段：支持
 # 增强国外GFW：支持
 # 增加Tiktok规则默认美国节点
-# 适用于：https://github.com/xishang0128/sparkle
+#制作日期：2024-11-21
+#更新日期：2023-03-19
 
 
 proxy-groups:
@@ -537,11 +538,19 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  CustomProhibit:
+    url: https://raw.githubusercontent.com/PlanetEditorX/subconverter/refs/heads/master/custom/CustomProhibit.list
+    path: ./ruleset/CustomProhibit.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
 
 rules:
   - "RULE-SET,LocalAreaNetwork,🎯 全球直连"
   - "RULE-SET,UnBan,🎯 全球直连"
   - "RULE-SET,BanAD,🛑 广告拦截"
+  - "RULE-SET,CustomProhibit,🛑 广告拦截"
   - "RULE-SET,BanProgramAD,🍃 应用净化"
   - "RULE-SET,GoogleFCM,📢 谷歌FCM"
   - "RULE-SET,GoogleCN,🎯 全球直连"
