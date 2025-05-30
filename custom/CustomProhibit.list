@@ -17,3 +17,6 @@ DOMAIN-SUFFIX,api.msn.com
 DOMAIN-SUFFIX,browser.events.data.msn.com
 #DOMAIN-SUFFIX,edge.activity.windows.com
 DOMAIN-SUFFIX,img-s-msn-com.akamaized.net
+
+# 屏蔽IP
+IP-CIDR,111.63.96.127/32,no-resolve
