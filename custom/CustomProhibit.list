@@ -7,6 +7,8 @@ DOMAIN,dc.services.visualstudio.com
 DOMAIN-SUFFIX,api.simpleallowcopy.com
 DOMAIN-SUFFIX,lzzncm.com
 DOMAIN-SUFFIX,belinblin233.top
+DOMAIN-SUFFIX,zsjie.com
+
 
 # 屏蔽Microsoft Edge启动页广告
 DOMAIN-SUFFIX,c.msn.com
