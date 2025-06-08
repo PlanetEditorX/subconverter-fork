@@ -1,6 +1,6 @@
 # 内容：机场IP,不走代理的IP
 
-# IP-CIDR,IP/24,no-resolve
+# 
 ######################################
 # 牛逼✈️
 # 香港
@@ -16,18 +16,32 @@ IP-CIDR,120.236.196.136/24,no-resolve
 IP-CIDR,120.237.60.57/24,no-resolve
 IP-CIDR,142.91.98.22/24,no-resolve
 IP-CIDR,185.241.40.230/24,no-resolve
+IP-CIDR,151.243.22.54/24,no-resolve
+IP-CIDR,151.243.22.81/24,no-resolve
+IP-CIDR,120.237.215.30/24,no-resolve
+IP-CIDR,120.237.215.27/24,no-resolve
+IP-CIDR,120.237.215.26/24,no-resolve
+IP-CIDR,120.238.97.218/24,no-resolve
 
 # 新加坡
 IP-CIDR,194.87.10.103/24,no-resolve
 IP-CIDR,192.124.176.28/24,no-resolve
+IP-CIDR,194.87.10.213/24,no-resolve
+IP-CIDR,38.180.191.46/24,no-resolve
+IP-CIDR,38.180.249.144/24,no-resolve
 
 # 台湾
 IP-CIDR,1.162.134.183/24,no-resolve
 IP-CIDR,1.162.167.199/24,no-resolve
+IP-CIDR,1.162.159.156/24,no-resolve
+IP-CIDR,1.162.189.49/24,no-resolve
+
+
 
 # 日本
 IP-CIDR,5.183.176.163/24,no-resolve
 IP-CIDR,151.248.68.232/24,no-resolve
+IP-CIDR,45.88.43.109/24,no-resolve
 
 # 美国
 IP-CIDR,45.61.186.228/24,no-resolve
@@ -41,13 +55,28 @@ IP-CIDR,172.67.195.92/24,no-resolve
 IP-CIDR,172.67.197.154/24,no-resolve
 IP-CIDR,205.185.118.99/24,no-resolve
 IP-CIDR,212.18.104.172/24,no-resolve
+IP-CIDR,89.185.80.192/24,no-resolve
+IP-CIDR,166.88.164.253/24,no-resolve
+IP-CIDR,104.18.63.108/24,no-resolve
+IP-CIDR,13.224.25.66/24,no-resolve
+IP-CIDR,172.67.195.204/24,no-resolve
 
 # 英国
 IP-CIDR,185.125.190.57/24,no-resolve
-IP-CIDR,38.180.249.144/24,no-resolve
+IP-CIDR,91.149.202.185/24,no-resolve
 
 # 韩国
 IP-CIDR,114.205.92.196/24,no-resolve
+IP-CIDR,182.231.189.244/24,no-resolve
+
+# 加拿大
+IP-CIDR,147.45.177.95/24,no-resolve
+
+# 曼谷
+IP-CIDR,103.117.151.7/24,no-resolve
+
+# 印尼
+IP-CIDR,38.244.146.18/24,no-resolve
 
 # 德国
 IP-CIDR,85.208.72.85/24,no-resolve
@@ -57,6 +86,7 @@ IP-CIDR,185.161.251.40/24,no-resolve
 IP-CIDR,91.211.57.140/24,no-resolve
 IP-CIDR,95.24.167.9/24,no-resolve
 IP-CIDR,95.27.21.194/24,no-resolve
+
 
 ######################################
 
