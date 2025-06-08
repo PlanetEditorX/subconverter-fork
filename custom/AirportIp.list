@@ -44,6 +44,7 @@ IP-CIDR,212.18.104.172/24,no-resolve
 
 # 英国
 IP-CIDR,185.125.190.57/24,no-resolve
+IP-CIDR,38.180.249.144/24,no-resolve
 
 # 韩国
 IP-CIDR,114.205.92.196/24,no-resolve
