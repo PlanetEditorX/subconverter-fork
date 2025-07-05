@@ -26,12 +26,12 @@ jobs:
         run: |
           # 为每一行加上 DOMAIN-SUFFIX, 前缀
           sed 's/^/DOMAIN-SUFFIX,/g' ai-domains.list > processed-domains.list
+          cat processed-domains.list
+          # 将修改后的文件移动到目标目录
+          mv processed-domains.list subconverter/custom/Chatgpt.list
 
       - name: Commit Changes
         run: |
-          # 将修改后的文件移动到目标目录
-          mv processed-domains.list subconverter/custom/Chatgpt.list
-          
           # 提交更新
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
