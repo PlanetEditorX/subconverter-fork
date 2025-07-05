@@ -21,6 +21,8 @@ jobs:
       - name: 下载规则列表
         run: |
           curl -L https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.list -o ai-domains.list
+          echo "去除+."
+          sed -i 's/^+\.//g' ai-domains.list
 
       - name: 添加AI域名规则匹配
         run: |
