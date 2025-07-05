@@ -22,14 +22,14 @@ jobs:
         run: |
           curl -L https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.list -o ai-domains.list
 
-      - name: 添加规则匹配
+      - name: 添加AI域名规则匹配
         run: |
           # 为每一行加上 DOMAIN-SUFFIX, 前缀
           echo "生成AI规则文件"
           echo '# 内容：Chatgpt Domains' > Chatgpt.list
-          date +"%Y-%m-%d %H:%M:%S" >> Chatgpt.list
+          echo '# 数量：$(wc -l < ai-domains.list)' > Chatgpt.list
+          echo "# 更新：$(date +'%Y-%m-%d %H:%M:%S')\n" >> Chatgpt.list
           sed 's/^/DOMAIN-SUFFIX,/g' ai-domains.list >> Chatgpt.list
-          cat Chatgpt.list
           # 将修改后的文件移动到目标目录
           mv Chatgpt.list custom/Chatgpt.list
 
