@@ -25,10 +25,13 @@ jobs:
       - name: 添加规则匹配
         run: |
           # 为每一行加上 DOMAIN-SUFFIX, 前缀
-          sed -i 's/^/DOMAIN-SUFFIX,/g' ai-domains.list
-          cat ai-domains.list
+          echo "生成AI规则文件"
+          echo '# 内容：Chatgpt Domains' > Chatgpt.list
+          date +"%Y-%m-%d %H:%M:%S" >> Chatgpt.list
+          sed 's/^/DOMAIN-SUFFIX,/g' ai-domains.list >> Chatgpt.list
+          cat Chatgpt.list
           # 将修改后的文件移动到目标目录
-          mv ai-domains.list custom/Chatgpt.list
+          mv Chatgpt.list custom/Chatgpt.list
 
       - name: Commit Changes
         run: |
