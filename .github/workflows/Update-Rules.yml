@@ -28,7 +28,7 @@ jobs:
           echo "生成AI规则文件"
           echo '# 内容：Chatgpt Domains' > Chatgpt.list
           echo "# 数量：$(wc -l < ai-domains.list)" >> Chatgpt.list
-          echo "# 更新：$(date +'%Y-%m-%d %H:%M:%S')\n" >> Chatgpt.list
+          echo -e "# 更新：$(date +'%Y-%m-%d %H:%M:%S')\n" >> Chatgpt.list
           sed 's/^/DOMAIN-SUFFIX,/g' ai-domains.list >> Chatgpt.list
           # 将修改后的文件移动到目标目录
           mv Chatgpt.list custom/Chatgpt.list
