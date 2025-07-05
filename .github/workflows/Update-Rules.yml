@@ -25,12 +25,10 @@ jobs:
       - name: Process Domains
         run: |
           # 为每一行加上 DOMAIN-SUFFIX, 前缀
-          sed 's/^/DOMAIN-SUFFIX,/g' ai-domains.list > processed-domains.list
-          cat processed-domains.list
-          ls -l
-          ls -l subconverter
+          sed -i 's/^/DOMAIN-SUFFIX,/g' ai-domains.list
+          cat ai-domains.list
           # 将修改后的文件移动到目标目录
-          mv processed-domains.list subconverter/custom/Chatgpt.list
+          mv ai-domains.list custom/Chatgpt.list
 
       - name: Commit Changes
         run: |
