@@ -1,0 +1,38 @@
+# 内容：机场IP,不走代理的IP
+
+######################################
+# 霉霉✈️
+
+IP-CIDR,103.37.45.123/32,no-resolve
+IP-CIDR,116.148.227.134/32,no-resolve
+IP-CIDR,120.233.87.164/32,no-resolve
+IP-CIDR,120.233.87.190/32,no-resolve
+IP-CIDR,183.238.50.24/32,no-resolve
+IP-CIDR,43.241.51.106/32,no-resolve
+IP-CIDR,58.250.244.19/32,no-resolve
+
+# 域名
+DOMAIN-SUFFIX,belinblin233.top
+
+######################################
+
+######################################
+# 牛逼✈️
+
+IP-CIDR,120.237.215.26/32,no-resolve
+IP-CIDR,120.237.215.27/32,no-resolve
+IP-CIDR,120.237.215.30/32,no-resolve
+IP-CIDR,120.238.89.150/32,no-resolve
+IP-CIDR,147.45.49.251/32,no-resolve
+IP-CIDR,151.243.22.20/32,no-resolve
+IP-CIDR,151.243.22.81/32,no-resolve
+IP-CIDR,151.248.68.232/32,no-resolve
+IP-CIDR,218.166.22.102/32,no-resolve
+IP-CIDR,38.180.191.46/32,no-resolve
+IP-CIDR,38.180.249.144/32,no-resolve
+
+# 域名
+DOMAIN-SUFFIX,sssyun.xyz
+DOMAIN-SUFFIX,jueduibupao.top
+
+######################################
