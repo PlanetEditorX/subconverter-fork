@@ -45,6 +45,7 @@ def get_ips_from_domains(file_path):
             # 尝试匹配常见的域名模式（可能需要根据你的订阅文件格式调整）
             # 这是一个通用的匹配，可能需要更精确的正则
             found_domains = re.findall(r'"server":"([^"]+)"', content)
+            print(f"找到所有域名： '{found_domains}'")
             for domain in found_domains:
                 # 简单过滤一些非域名或内部地址
                 if not domain.startswith(('10.', '172.', '192.', '127.')) and '.' in domain:
