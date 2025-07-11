@@ -89,8 +89,8 @@ print("\n--- 所有解析到的 IP 地址 ---")
 for ip in ip_list:
     print(ip)
 print("\n--- 完成 ---")
-# 将结果写入到 output.txt 文件
-with open('ip_list.txt', 'w', encoding='utf-8') as f:
+# 将结果写入到 AirportIp.list 文件
+with open('../custom/AirportIp.list', 'w', encoding='utf-8') as f:
     f.write("######################################\n")
     f.write("# 内容：机场IP解析结果\n")
     f.write("# 数量：{}\n".format(len(ip_list)))
