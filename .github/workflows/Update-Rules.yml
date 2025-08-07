@@ -3,7 +3,7 @@ name: Update Rules List
 on:
   workflow_dispatch:  # 手动触发工作流
   schedule:
-    - cron: '0 16 * * *'  # 每天0点执行一次
+    # - cron: '0 16 * * *'  # 每天0点执行一次
 
 jobs:
   update-rules-list:
